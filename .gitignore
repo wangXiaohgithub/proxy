@@ -1,0 +1,13 @@
+.DS_Store
+.venv/
+.backup/
+__pycache__/
+*.pyc
+.work/
+
+# Legacy output retained locally, not published
+/output/v2rayng_rules.json
+/output/block_domains.txt
+/output/direct_domains.txt
+/output/proxy_domains.txt
+/output/proxy_ips.txt
