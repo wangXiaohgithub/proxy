@@ -16,7 +16,7 @@ from src.qr import generate
 from src.validate import output as validate_output
 
 ROOT = Path(__file__).resolve().parent
-SOURCE = 'https://johnshall.github.io/Shadowrocket-ADBlock-Rules-Forever/sr_top500_banlist_ad.conf'
+SOURCE = 'https://johnshall.github.io/Shadowrocket-ADBlock-Rules-Forever/sr_top500_whitelist_ad.conf'
 
 def dump(path: Path, value) -> None:
     path.write_text(json.dumps(value, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
